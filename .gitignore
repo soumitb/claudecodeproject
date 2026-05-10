@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Environment files
+.env
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
