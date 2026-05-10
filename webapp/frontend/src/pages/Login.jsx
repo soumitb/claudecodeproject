@@ -82,9 +82,10 @@ export default function Login() {
         </div>
         <form onSubmit={handleSubmit}>
           <div>
-            <label>Email</label>
+            <label htmlFor="email">Email</label>
             <br />
             <input
+              id="email"
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -93,9 +94,10 @@ export default function Login() {
             />
           </div>
           <div>
-            <label>Password</label>
+            <label htmlFor="password">Password</label>
             <br />
             <input
+              id="password"
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
